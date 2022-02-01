@@ -1,0 +1,19 @@
+{
+  "name": "web-chat",
+  "version": "1.0.0",
+  "description": "Tutorial on how to create a web browser chat ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmoraguiard/web-chat.git"
+  },
+  "author": "Freakill",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmoraguiard/web-chat/issues"
+  },
+  "homepage": "https://github.com/jmoraguiard/web-chat#readme"
+}
