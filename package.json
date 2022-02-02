@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/jmoraguiard/web-chat/issues"
   },
-  "homepage": "https://github.com/jmoraguiard/web-chat#readme"
+  "homepage": "https://github.com/jmoraguiard/web-chat#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
 }
