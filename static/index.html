@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>My little chat app</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <script src="socket.io/socket.io.js"></script>
+
+    <title>My little chat app</title>
 </head>
 <body>  
     <h1>My little chat app</h1>  
+
+    <form id="chat-form">
+        <label class="chat-label">
+            Enter a message:
+            <input type="text" id="chat-input">
+        </label>
+        <input type="submit" class="chat-submit" value="enter">
+    </form>
+
+    <div class="chat-dump"></div>
+
     <script src="app.js"></script>
 </body>
 </html>
